@@ -1,0 +1,13 @@
+.profile_card{
+    display: flex;
+    justify-content: start;
+    margin: 1rem 0;
+    grid-gap: 1rem;
+}
+.avatar{
+    border-radius: 50%;
+    border: .3rem solid #678889;
+}
+.user_pro{
+   line-height: 1rem;
+}

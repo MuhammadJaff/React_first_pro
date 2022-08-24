@@ -1,9 +1,9 @@
-import React from 'react'
+import './App.css'
 
 function Avatar({name,img}) {
     return (
-        <div>
-            <img src={img} alt={name}/>
+        <div >
+            <img className='avatar' src={img} alt={name}/>
         </div>
     )
 }
